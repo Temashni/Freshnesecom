@@ -1,0 +1,204 @@
+:host {
+
+    .blog {
+        display: flex;
+        margin-top: 142px;
+        
+    &__title {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+        &__button {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 22px;
+        text-decoration: none;
+        color: #151515;
+        }
+    }
+
+    .block-wrapper{
+        display: flex;
+        margin-top: 36px;
+
+        &__post-image {
+            width: 469px;
+            height: 400px;
+            padding: 24px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+
+            background: url(/assets/images/Rectangle26.png);
+            box-sizing: border-box;
+            border-radius: 15px;
+            
+        }
+
+        &__post-button {
+            padding: 0px 8px;
+            background: #F4F8EC;
+            border-radius: 10px;
+            text-decoration: none;
+
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #6A983C;
+        }
+        
+        &__post-text {
+            margin-top: 220px;
+
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #FFFFFF;
+        }
+
+        &__user {
+            display: flex;
+            align-items: center;
+        }
+
+        &__user-photo {
+            width: 32px;
+            height: 32px;
+
+        }
+
+        &__user-name {
+            margin-left: 8px;
+
+            font-family: "Open Sans";
+            font-size: 12px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+
+        &__user-date {
+            margin-left: 16px;
+
+            font-family: "Open Sans";
+            font-size: 12px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+
+        &__vegetable {
+            width: 269px;
+            margin: 0 auto;
+
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+        }
+
+        &__post-food {
+            width: 269px;
+            height: 180px;
+        }
+
+        &__vegetable-title {
+            margin-top: 24px;
+            padding: 0 8px;
+
+            border-radius: 10px;
+            background: #F4F8EC;
+
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #6A983C;
+        }
+
+        &__vegetable-text {
+            margin-top: 8px;
+
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        &__vegetable-user {
+            display: flex;
+            align-items: center;
+            margin-top: 16px;
+        }
+
+        &__vegetable-user-name {
+            font-family: Open Sans;
+            font-size: 12px;
+            line-height: 16px;
+            color: #151515;
+        }
+
+        &__vegetable-user-date {
+            margin-left: 16px;
+
+            font-family: Open Sans;
+            font-size: 12px;
+            line-height: 16px;
+            color: #151515;
+        }
+
+        &__recipe {
+            width: 225px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__recipe-text {
+            font-family: "Poppins";
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+        
+            &:not(:first-child) {
+                margin-top: 50px;
+            }
+        }
+
+        &__recipe-user {
+            display: flex;
+            align-items: center;
+            margin-top: 16px;
+        }
+
+        &__recipe-user-name {
+            font-family: Open Sans;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        &__recipe-user-date {
+            margin-left: 16px;
+
+            font-family: Open Sans;
+
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        &__fruits {
+            display: flex;
+            flex-direction: column;
+
+            *:not(:first-child) {
+                margin-top: 32px;
+            }
+        }
+    }
+}

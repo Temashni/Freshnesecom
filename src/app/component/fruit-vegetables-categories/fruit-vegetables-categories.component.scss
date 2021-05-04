@@ -1,0 +1,149 @@
+:host {
+
+    .fruit-vegetables-categories {
+        display: flex;
+
+        &__title {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515;
+        }
+
+        &__link {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            width: 276px;
+        }
+
+        &__name {
+            font-family: "Open Sans";
+            font-size: 14px;
+            line-height: 19px;
+            color: #151515;
+        }
+
+        &__name-number {
+            padding: 0px 8px;
+
+            background: #F4F8EC;
+            border-radius: 13px;
+            color: #6A983C;
+
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+        }     
+        
+        &__brands-title {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515;
+
+            margin-top: 48px;
+        }
+
+        &__brands {
+            margin-top: 18px;
+            display: flex;
+            width: 276px;
+        }
+
+        &__brands-button {
+            border-radius: 3px;
+            border: 1.5px solid #D1D1D1;
+            background: white;
+            width: 20px;
+            height: 20px;
+        }
+
+        &__brands-filtre {
+            font-family: "Open Sans";
+            font-size: 14px;
+            line-height: 19px;
+            color: #151515;
+
+            margin-left: 10px;
+        }
+
+        &__rating-title {
+            margin-top: 50px;
+
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515;
+        }
+
+        &__rating {
+            margin-top: 18px;
+            display: flex;
+            width: 276px;
+            align-items: center;
+        }
+
+        &__rating-button {
+            border-radius: 3px;
+            border: 1.5px solid #D1D1D1;
+            background: white;
+            width: 20px;
+            height: 20px;  
+        }
+        
+        &__rating-stars {
+            margin-left: 11px;
+            width: 13px;
+            height: 14px;
+        }
+
+        &__price-title {
+            margin-top: 50px;
+
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515;
+        }
+
+        &__price {
+            margin-top: 23px;
+            display: flex;
+            width: 276px;
+        }
+        &__price-line {
+            width: 251px;
+            height: 6px;
+
+            background: #EBEBEB;
+            border-radius: 3px;
+        }
+    }
+    .custom-checkbox {
+        display: none;
+        }
+    .custom-checkbox:checked+label::before {
+        border-color:#6A983C;
+        background-color: #6A983C;
+        background-image: url(/assets/images/jackdaw.png);
+      }
+      .custom-checkbox+label::before {
+        content: '';
+        display: block;
+        border-radius: 3px;
+        border: 1.5px solid #D1D1D1;
+        background: white;
+        flex-shrink: 0;
+        flex-grow: 0;
+        width: 20px;
+        height: 20px;  
+        background-repeat: no-repeat;
+        background-position: center center;
+      }  
+}

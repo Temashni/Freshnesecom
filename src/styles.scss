@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+    &._flex_justify {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.text-button {
+    color: #151515;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+} 
+
+.body {
+    font-family: "Open Sans";
+}

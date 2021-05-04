@@ -1,0 +1,33 @@
+:host {
+
+    .product-tags {
+        display: flex;
+        margin-top: 48px;
+    }
+
+    .product-tags__title {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #151515;
+    }
+
+    .product-tags__container {
+        display: flex;
+    }
+    .product-tags__text{
+        margin-top: 20px;
+        padding: 4px 10px;
+        border-radius: 10px;
+        background: #F5F5F5;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+
+        &:not(:first-child) {
+            margin-left: 16px;
+        }
+    }
+}

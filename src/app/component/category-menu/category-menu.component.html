@@ -1,0 +1,9 @@
+<div class="category-menu">
+    <h3>{{ menu.title }}</h3>
+    <ul class="category-menu__menu">
+        <li *ngFor="let link of menu.listLinks" class="category-menu__link">
+            <a href="#!" class="category-menu__link-text">{{link}}</a>
+        </li>
+    </ul>
+    <a routerLink="/categories" class="category-menu__button">{{menu.buttonName}}</a>
+</div>

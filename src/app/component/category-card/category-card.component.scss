@@ -1,0 +1,48 @@
+:host {
+
+    .category-card {
+        background: url(/assets/images/fon.png);
+        height: 280px;
+        width: 420px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        display: flex;
+        justify-self: space-between;
+        
+
+        &__container-card {
+            width:376px;
+            margin:0 auto;
+            display: flex;
+            justify-self: space-between;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-top: 48px;
+        }
+
+        &__text {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #6A983C;
+        }
+        
+        &__button {
+            width: 150px;
+            margin-top: 100px;
+            padding: 16px 20px;
+
+            border:2px solid #6A983C;
+            font-family: "Poppins";
+            color: #151515;
+            background: #F5F5F5;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+            outline: none;
+        }
+    }
+}
